@@ -25,7 +25,7 @@ const Menu = () => {
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
                       <span className="sr-only">Workflow</span>
-                      <img className="w-full h-14 lg:h-24" src={Logo} />
+                      <img className="w-full h-20 lg:h-24" src={Logo} />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
@@ -40,7 +40,7 @@ const Menu = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="font-semibold text-gray-500 hover:border-b-2 border-red-600 hover:text-gray-700  "
+                      className="font-semibold text-gray-400 border-red-600 hover:text-gray-700 "
                     >
                       {item.name}
                     </a>
@@ -48,7 +48,7 @@ const Menu = () => {
 
                   <a
                     href="#"
-                    className="font-semibold text-red-600 hover:bg-red-600 p-2 m-2 items-center hover:text-white  text-medium justify-center border border-transparent text-base rounded-l-xl rounded-t-xl"
+                    className="transition-all duration-300 ease-out font-semibold text-red-600 hover:bg-red-600 p-2 m-2 items-center hover:text-white rounded-l-xl rounded-t-xl text-medium justify-center border border-transparent text-base "
                   >
                     Log in
                   </a>
@@ -74,7 +74,7 @@ const Menu = () => {
                 <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
-                      <img className="h-8 w-auto" src={Logo} alt="" />
+                      <img className="h-12 w-auto" src={Logo} alt="" />
                     </div>
                     <div className="-mr-2">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">

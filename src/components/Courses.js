@@ -7,7 +7,7 @@ import {
   faClock,
   faCoffee,
 } from "@fortawesome/free-solid-svg-icons";
-  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Courses = () => {
   return (
